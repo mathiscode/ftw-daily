@@ -14,6 +14,8 @@ way to update this template, but currently, we follow a pattern:
 
 ## Upcoming version 2020-XX-XX
 
+- [Change] Remove react-google-maps dependency. It has not been maintained for 3 years. From now on,
+  we use Google Maps API directly. [#1389](https://github.com/sharetribe/ftw-daily/pull/1389)
 - [fix] Call for the same page caused unnecessary rendering
   [#1388](https://github.com/sharetribe/ftw-daily/pull/1388)
 - [fix] Fix Google Maps default centering if no bounds or center is given.
