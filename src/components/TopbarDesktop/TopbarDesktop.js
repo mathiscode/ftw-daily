@@ -116,6 +116,30 @@ const TopbarDesktop = props => {
     </Menu>
   ) : null;
 
+  const aboutLink = (
+    <NamedLink name="AboutPage" className={css.aboutLink}>
+      <span className={css.about}>
+        <FormattedMessage id="TopbarDesktop.about" />
+      </span>
+    </NamedLink>
+  );
+
+  const whyVintageLink = (
+    <NamedLink name="WhyVintagePage" className={css.whyVintageLink}>
+      <span className={css.whyVintage}>
+        <FormattedMessage id="TopbarDesktop.whyVintage" />
+      </span>
+    </NamedLink>
+  );
+
+  const inviteFriendsLink = (
+    <NamedLink name="InviteFriendsPage" className={css.inviteFriendsLink}>
+      <span className={css.inviteFriends}>
+        <FormattedMessage id="TopbarDesktop.inviteFriends" />
+      </span>
+    </NamedLink>
+  );
+
   const signupLink = isAuthenticatedOrJustHydrated ? null : (
     <NamedLink name="SignupPage" className={css.signupLink}>
       <span className={css.signup}>
@@ -141,16 +165,22 @@ const TopbarDesktop = props => {
           alt={intl.formatMessage({ id: 'TopbarDesktop.logo' })}
         />
       </NamedLink>
-      {search}
+
+      {/* {search} */}
+      {/* {aboutLink} */}
+      {whyVintageLink}
+      {inviteFriendsLink}
+
+      {inboxLink}
+      {profileMenu}
+      {signupLink}
+      {loginLink}
+
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>
           <FormattedMessage id="TopbarDesktop.createListing" />
         </span>
       </NamedLink>
-      {inboxLink}
-      {profileMenu}
-      {signupLink}
-      {loginLink}
     </nav>
   );
 };

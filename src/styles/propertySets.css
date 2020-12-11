@@ -23,7 +23,7 @@
   --backgroundImage: {
     /* Gradient direction and overlaying the black color on top of the image for better readability */
     background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-      url('../../assets/background-1440.jpg');
+      url('../../assets/jewelry-background.jpg');
 
     /* Add loading color for the div */
     background-color: var(--matterColor);
@@ -34,10 +34,10 @@
     /* Align the image within the container */
     background-position: center center;
 
-    @media (--viewportLarge) {
+    /* @media (--viewportLarge) {
       border-radius: 40px;
       border: solid 36px var(--matterColorBright);
-    }
+    } */
   }
 
   /**
@@ -546,7 +546,7 @@
     border-radius: 0;
 
     /* Background */
-    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="9" viewBox="0 0 14 9" xmlns="http://www.w3.org/2000/svg"><path d="M6.53 7.472c.26.26.68.26.94 0l5.335-5.333c.26-.263.26-.684 0-.944-.26-.26-.683-.26-.943 0L7 6.056l-4.862-4.86c-.26-.26-.683-.26-.943 0-.26.26-.26.68 0 .943L6.53 7.47z" stroke="%234A4A4A" fill="%234A4A4A" fill-rule="evenodd"/></svg>');
+    background-image: url('../assets/jewelry-background.jpg');
     background-size: 16px 16px;
     background-position: center right;
 

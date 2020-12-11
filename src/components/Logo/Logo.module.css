@@ -3,3 +3,23 @@
     fill: var(--marketplaceColor);
   }
 }
+
+.logoTextWrapper {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 5px;
+  left: 5px;
+}
+
+.logoTextWrapper h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.logoTextWrapper p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}

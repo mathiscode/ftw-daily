@@ -166,6 +166,24 @@ const routeConfiguration = () => {
       component: props => <ProfileSettingsPage {...props} />,
     },
 
+    {
+      path: '/about',
+      name: 'AboutPage',
+      component: props => <LandingPage {...props} />
+    },
+
+    {
+      path: '/why-vintage',
+      name: 'WhyVintagePage',
+      component: props => <LandingPage {...props} />
+    },
+
+    {
+      path: '/invite-friends',
+      name: 'InviteFriendsPage',
+      component: props => <LandingPage {...props} />
+    },
+
     // Note: authenticating with IdP (e.g. Facebook) expects that /login path exists
     // so that in the error case users can be redirected back to the LoginPage
     // In case you change this, remember to update the route in server/api/auth/loginWithIdp.js
@@ -350,6 +368,18 @@ const routeConfiguration = () => {
       component: props => <EmailVerificationPage {...props} />,
       loadData: EmailVerificationPage.loadData,
     },
+
+    // Footer paths
+    {
+      path: '/faq',
+      name: 'FAQPage',
+      component: props => <LandingPage {...props} />
+    },
+    {
+      path: '/contact',
+      name: 'ContactPage',
+      component: props => <LandingPage {...props} />
+    }
   ];
 };
 

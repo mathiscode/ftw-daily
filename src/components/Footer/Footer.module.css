@@ -1,13 +1,16 @@
 @import '../../styles/propertySets.css';
 
 .root {
+  text-align: center;
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: var(--matterColorNegative);
 
   width: 100%;
   padding: 24px 24px 42px 24px;
-  background-color: var(--matterColorBright);
+  /* background-color: var(--matterColorBright); */
+  background-color: black;
+  color: white;
 
   @media (--viewportMedium) {
     padding: 0 24px 33px 24px;
@@ -56,7 +59,7 @@
 }
 
 /* Mobile only social media links */
-.someLiksMobile {
+.someLinksMobile {
   margin-bottom: 24px;
 
   @media (--viewportMedium) {
@@ -148,13 +151,14 @@
 /* Desktop and Mobile: links to more information */
 .infoLinks {
   order: 2;
-  flex-basis: 165px;
-  margin-right: 24px;
+  /* flex-basis: 165px; */
+  /* margin-right: 24px; */
   margin-bottom: 24px;
+  margin: auto;
 
   @media (--viewportMedium) {
     padding-top: 2px;
-    margin-right: 12px;
+    /* margin-right: 12px; */
   }
 }
 
@@ -166,6 +170,9 @@
 .listItem {
   min-height: 24px;
   margin-bottom: 6px;
+  margin-right: 2rem;
+
+  display: inline-block;
 
   @media (--viewportMedium) {
     margin-bottom: 0;
