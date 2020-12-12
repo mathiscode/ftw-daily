@@ -1,10 +1,13 @@
 export { default as AboutPage } from './AboutPage/AboutPage';
 export { default as AuthenticationPage } from './AuthenticationPage/AuthenticationPage';
 export { default as CheckoutPage } from './CheckoutPage/CheckoutPage';
+export { default as ContactPage } from './ContactPage/ContactPage';
 export { default as ContactDetailsPage } from './ContactDetailsPage/ContactDetailsPage';
 export { default as EditListingPage } from './EditListingPage/EditListingPage';
 export { default as EmailVerificationPage } from './EmailVerificationPage/EmailVerificationPage';
+export { default as FAQPage } from './FAQPage/FAQPage';
 export { default as InboxPage } from './InboxPage/InboxPage';
+export { default as InviteFriendsPage } from './InviteFriendsPage/InviteFriendsPage';
 export { default as LandingPage } from './LandingPage/LandingPage';
 export { default as ListingPage } from './ListingPage/ListingPage';
 export { default as ManageListingsPage } from './ManageListingsPage/ManageListingsPage';
@@ -23,3 +26,4 @@ export { default as StyleguidePage } from './StyleguidePage/StyleguidePage';
 export { default as TermsOfServicePage } from './TermsOfServicePage/TermsOfServicePage';
 export { default as TopbarContainer } from './TopbarContainer/TopbarContainer';
 export { default as TransactionPage } from './TransactionPage/TransactionPage';
+export { default as WhyVintagePage } from './WhyVintagePage/WhyVintagePage';

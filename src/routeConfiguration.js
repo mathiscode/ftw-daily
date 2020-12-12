@@ -3,10 +3,13 @@ import {
   AboutPage,
   AuthenticationPage,
   CheckoutPage,
+  ContactPage,
   ContactDetailsPage,
   EditListingPage,
   EmailVerificationPage,
+  FAQPage,
   InboxPage,
+  InviteFriendsPage,
   LandingPage,
   ListingPage,
   ManageListingsPage,
@@ -23,6 +26,7 @@ import {
   StyleguidePage,
   TermsOfServicePage,
   TransactionPage,
+  WhyVintagePage
 } from './containers';
 
 // routeConfiguration needs to initialize containers first
@@ -175,13 +179,13 @@ const routeConfiguration = () => {
     {
       path: '/why-vintage',
       name: 'WhyVintagePage',
-      component: props => <LandingPage {...props} />
+      component: props => <WhyVintagePage {...props} />
     },
 
     {
       path: '/invite-friends',
       name: 'InviteFriendsPage',
-      component: props => <LandingPage {...props} />
+      component: props => <InviteFriendsPage {...props} />
     },
 
     // Note: authenticating with IdP (e.g. Facebook) expects that /login path exists
@@ -373,12 +377,12 @@ const routeConfiguration = () => {
     {
       path: '/faq',
       name: 'FAQPage',
-      component: props => <LandingPage {...props} />
+      component: props => <FAQPage {...props} />
     },
     {
       path: '/contact',
       name: 'ContactPage',
-      component: props => <LandingPage {...props} />
+      component: props => <ContactPage {...props} />
     }
   ];
 };

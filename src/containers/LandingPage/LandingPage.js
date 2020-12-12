@@ -64,37 +64,37 @@ export const LandingPageComponent = props => {
 
           <ul className={css.sections}>
             <li className={css.section}>
-              <div className={css.sectionContentFirstChild}>
-                <div className="container">
+              {/* <div className={css.sectionContentFirstChild}> */}
+                <div className="container-fluid">
                   <div className="row">
-                    <div className="col-xl-4 col-xs-12">
+                    <div className="col-xl-2 col-xs-12">
                       <p><a href="#">Rings</a></p>
                       <p><a href="#">Earrings</a></p>
                       <p><a href="#">Ring Watches</a></p>
                       <p><a href="#">Jewelry Boxes</a></p>
                     </div>
 
-                    <div className="col-xl-8 col-xs-12">
+                    <div className="col-xl-10 col-xs-12">
                       <div className="row">
                         <div className="col">
-                          <img src="https://via.placeholder.com/150" />
+                          <img src="https://via.placeholder.com/300" />
                           <p><a href="#">Vintage Digits Ring Watch  $19.99</a></p>
                         </div>
 
                         <div className="col">
-                          <img src="https://via.placeholder.com/150" />
+                          <img src="https://via.placeholder.com/300" />
                           <p><a href="#">Vintage ring  $14.99</a></p>
                         </div>
 
                         <div className="col">
-                          <img src="https://via.placeholder.com/150" />
+                          <img src="https://via.placeholder.com/300" />
                           <p><a href="#">Vintage Japan Fish earrings  $19.99</a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </li>
             {/* <li className={css.section}>
               <div className={css.sectionContent}>

@@ -48,12 +48,13 @@
   }
 
   margin: auto;
+  text-align: center;
 
   /* Special viewport for adjusting the heroContent's placement */
 
-  @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  /* @media only screen and (min-width: 1025px) and (max-width: 1366px) {
     padding: 0 36px 0 36px;
-  }
+  } */
 
   /* @media only screen and (min-width: 1367px) {
     margin: 0 auto;
@@ -61,6 +62,10 @@
     width: 100%;
     padding: 0 36px 0 36px;
   } */
+}
+
+.heroContent p {
+  font-style: italic;
 }
 
 .heroMainTitle {
@@ -112,4 +117,5 @@
 .searchInput {
   border-radius: 28px;
   padding: 16px 31px;
+  margin-right: 2.5rem;
 }

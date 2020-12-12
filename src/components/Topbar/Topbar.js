@@ -212,7 +212,8 @@ class TopbarComponent extends Component {
             name="LandingPage"
             title={intl.formatMessage({ id: 'Topbar.logoIcon' })}
           >
-            <Logo format="mobile" />
+            {/* <Logo format="mobile" /> */}
+            <span style={{ fontSize: '1.25rem', color: '#777' }}>VintLo</span>
           </NamedLink>
           <Button
             rootClassName={css.searchMenu}

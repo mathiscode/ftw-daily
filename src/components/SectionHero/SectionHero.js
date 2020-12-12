@@ -30,6 +30,7 @@ const SectionHero = props => {
         </h2> */}
 
         {search}
+        <p style={{ color: 'white' }}>Vintage jewelry. Lo prices</p>
 
         {/* <NamedLink
           name="SearchPage"

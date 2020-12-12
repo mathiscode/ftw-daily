@@ -24,6 +24,10 @@
   }
 }
 
+.spacer {
+  width: 20rem;
+}
+
 /* logo */
 .logoLink {
   @apply --TopbarDesktop_linkHover;
@@ -221,6 +225,7 @@
   flex-shrink: 0;
   height: 100%;
   padding: 0 12px 0 12px;
+  margin-right: 0;
 
   color: var(--matterColor);
 

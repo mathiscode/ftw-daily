@@ -159,17 +159,20 @@ const TopbarDesktop = props => {
   return (
     <nav className={classes}>
       <NamedLink className={css.logoLink} name="LandingPage">
-        <Logo
+        {/* <Logo
           format="desktop"
           className={css.logo}
           alt={intl.formatMessage({ id: 'TopbarDesktop.logo' })}
-        />
+        /> */}
+        <span style={{ fontSize: '1.25rem', color: '#777' }}>VintLo</span>
       </NamedLink>
 
       {/* {search} */}
       {/* {aboutLink} */}
       {whyVintageLink}
       {inviteFriendsLink}
+
+      <span className={css.spacer} />
 
       {inboxLink}
       {profileMenu}
